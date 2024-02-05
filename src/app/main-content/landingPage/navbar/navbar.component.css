@@ -1,0 +1,42 @@
+nav {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+}
+nav > img {
+  width: 64px;
+  height: 64px;
+}
+nav > div {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav > div > a:hover {
+  color: #a30806;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.phone_btn {
+  display: flex;
+  background-color: #a30806;
+  height: 30px;
+  width: 160px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 10px;
+}
+.phone_btn > img {
+  height: 20px;
+}
+
+/*# sourceMappingURL=navbar.component.css.map */

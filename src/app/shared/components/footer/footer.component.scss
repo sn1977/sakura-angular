@@ -1,0 +1,21 @@
+footer {
+    background: #080F16;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+
+    > img {
+        height: 64px;
+    }
+
+    > a {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-family: "Raleway", sans-serif;
+        text-decoration: none;
+        font-size: 32px;
+        font-weight: bold;
+        color: grey;
+    }
+}
